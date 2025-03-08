@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css'
+import './index.css'
 
 //Define Job type
 interface Job{
