@@ -47,4 +47,4 @@ This is a simple **Job Listing Application** built using **React with TypeScript
 
 ## Contribution 
 
-Feel free to fork this repository and submit your poll requests!!
+Feel free to fork this repository and submit poll requests!!
