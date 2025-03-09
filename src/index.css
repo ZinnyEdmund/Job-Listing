@@ -17,7 +17,6 @@ body{
 .myh1{
   color: #000000;
   font-size: 2rem;
-  font-style: italics;
 }
 .job-list{
   display: grid;
@@ -34,6 +33,7 @@ body{
   animation: fadeIn 0.6s ease-in-out;
   padding: 20px;
   width: 300px;
+  font-style: italics;
 }
 .job-card:hover{
   transform: translateY(-10px);
