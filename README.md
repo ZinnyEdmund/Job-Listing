@@ -43,3 +43,8 @@ This is a simple **Job Listing Application** built using **React with TypeScript
 * Each job is displayed using the JobItem component.
 * Clicking "**Show Details**" reveals additional job information.
 * If there are no jobs available, a message "**No jobs available at the moment**" is displayed.
+
+
+## Contribution 
+
+Feel free to fork this repository and submit your poll requests!!
