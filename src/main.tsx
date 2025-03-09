@@ -1,12 +1,21 @@
 import React, { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import JobList from './App.tsx'
+import List from './list'
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <div>
-      <JobList />
+const Main: React.FC = () => {
+  return (
+    <div className='app-container'>
+      <h1 className='myh1'>Job Listing App</h1>
+      <List />
     </div>
+  );
+};
+
+const container = document.getElementById('root');
+const root = createRoot(container!);
+root.render(
+  <StrictMode>
+    <Main />
   </StrictMode>
 );

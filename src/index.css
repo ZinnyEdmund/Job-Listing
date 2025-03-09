@@ -1,61 +1,96 @@
 body{
   font-family: Arial, sans-serif;
-  background-color:#70757a7a;
-  color: black;
+  background-color: #e6ebbb;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-container{
   text-align: center;
+  padding: 20px;
+  background-color: #a56827;
+  border-radius: 10px;
+  margin: 10px;
+}
+.myh1{
+  color: #000000;
+  font-size: 2rem;
 }
 .job-list{
-  max-width: 600px;
-  margin: 20px auto;
-  background: #656e77;
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-.h1{
-  font-size: 3rem;
 }
 .job-card{
-  background: #dddbde;
-  margin: 10px 0;
-  padding: 15px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #efdcab;
+  border-radius: 10px;
+  box-shadow: 0 4 10px #0000001a;
   transition: transform 0.3s ease-in-out;
+  animation: fadeIn 0.5s ease-in-out;
+  padding: 20px;
+  width: 300px;
 }
 .job-card:hover{
-  transform: scale(1.05);
+  transform: translateY(-10px);
 }
-.job-card h3{
-  margin: 0;
-  color: black;
+.job-card h2{
+  color: #1d1c1c;
 }
-.job-details{
-  margin-top: 10px;
-  background: #d7d6d8d3;
-  padding: 10px;
-  border-radius: 5px;
-}
-.job-details p{
-  margin: 0;
-  color: #333;
+.job-card p{
+  color: #302f2f;
 }
 button{
-  background-color: #383538b7;
-  color: white;
+  background-color: #534230;
+  color: #fff;
   border: none;
-  padding: 10px 20px;
   border-radius: 5px;
+  padding: 10px 20px;
+  margin: 15px;
   cursor: pointer;
-  margin-top: 10px;
   transition: background-color 0.3s ease-in-out;
 }
 button:hover{
-  background-color: #3b373b;
+  background-color: #251a0d;
 }
-.no-jobs {
-  color: red;
-  font-size: 20px;
+.job-details{
+  background-color: #fff3d4;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 0 4 10px #00000056;
+  animation: slideIn 0.3s ease-in-out;
+}
+.job-details p{
+  padding: 20px;
+  line-height: 20px;
+}
+ul{
+  list-style: disc;
+  padding: 0;
+  padding-left: 10px;
+  text-align: center;
+  justify-content: center;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0; transform: translateY(-10px);
+  }
+  to {
+    opacity: 1; transform: translateY(1px);
+  }
+}
+@keyframes slideIn {
+  from {
+    max-height: 0;
+    opacity: 0;
+  }
+  to {
+    max-height: 1000px;
+    opacity: 1;
+  }
 }
