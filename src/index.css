@@ -63,7 +63,7 @@ button:hover{
   justify-content: center;
   padding: 20px;
   box-shadow: 0 4 10px #00000056;
-  animation: slideIn 1.7s ease-in-out;
+  animation: slideIn 0.7s ease-in-out;
 }
 .job-details p{
   padding: 20px;
