@@ -65,4 +65,3 @@ GET https://dummyjson.com/products
  - Name: Zinny 🎀
  - Role: Frontend Developer
  - Tech Stack: React, TypeScript, CSS
----
