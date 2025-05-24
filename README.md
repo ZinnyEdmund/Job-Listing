@@ -1,50 +1,68 @@
-# Job Listing App (React + TypeScript)
+# 🛍️ E-commerce Website (Static UI with Best Sellers Feature)
 
+This project is a **static e-commerce website** built with **React + TypeScript**. The design is based on a provided Figma layout, featuring various product sections arranged on a single long page.
 
-## Overview
-This is a simple **Job Listing Application** built using **React with TypeScript**. It displays a list of job vacancies with details such as the job title, company, location, and salary. Users can toggle job details by clicking a "Show Details" button.
+Only one part of the site — the **Best Seller Products** section — is dynamic. It fetches random product data from a public API and allows users to refresh the list with a "Load More Product" button.
 
-## Features
-- Displays a list of **hardcoded jobs**.
-- **Conditional rendering**: If no jobs are available, a message is displayed.
-- Users can **toggle job details** using button.
-- **Styled with CSS** for a clean, modern UI.
+---
 
-## Tech Stack
-- **React** (with TypeScript)
--**Vite** (for project setup)
-- **CSS** (for styling)
+## 🚀 Features
 
-## Installation and Setup
+- Responsive static layout (based on Figma design)
+- Dynamic **Best Seller Products** section powered by an API
+- Grid layout with product image, title, description, and price
+- "Load More Product" button loads a fresh set of products on click
+
+---
+
+## 🌐 API Used
+
+Dynamic data is fetched from the following public API:
+
+**DummyJSON API**  
+🔗 [https://dummyjson.com/products](https://dummyjson.com/products)
+
+Example:
+```bash
+GET https://dummyjson.com/products
+```
+
+## 🛠️ Technologies Used
+
+- React + TypeScript
+- Module CSS
+- DummyJSON API
+
+## How to Run This Project Locally
 
 1. Clone the repository:
-```sh
-  git clone
-    https://github.com/ZinnyEdmund/Job-Listing-App.git
-  cd Job-Listing-App
+
+```bash
+  git clone https://github.com/ZinnyEdmund/E-commerce-Website.git
 ```
 
-- Install dependencies:
-```sh
+2. Install dependencies:
+
+```bash
   npm install
 ```
-- Start the development server:
-```sh
+
+3. Start the development server:
+
+```bash
   npm run dev
 ```
-- Open your browser and go to:
-```sh
-    https://localhost:5173
-```
 
-## How It Works
+## Contribution
 
-* The app loads job data from a hardcoded list.
-* Each job is displayed using the JobItem component.
-* Clicking "**Show Details**" reveals additional job information.
-* If there are no jobs available, a message "**No jobs available at the moment**" is displayed.
+* Feel free to fork this repository and submit poll requests!!
 
 
-## Contribution 
+---
 
-Feel free to fork this repository and submit poll requests!!
+
+ -  👤 Author
+ - Name: Zinny 🎀
+ - Role: Frontend Developer
+ - Tech Stack: React, TypeScript, CSS
+---
